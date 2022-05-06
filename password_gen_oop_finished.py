@@ -105,7 +105,7 @@ class password_gen():
 #Replace the first parameter of password_gen with your database textfile or csv
 
 if __name__ == "__main__":
-    passwordGenerator = password_gen("Python\TextFiles\passwordDatabase.txt")
+    passwordGenerator = password_gen("TextFiles\passwordDatabase.txt")
     passwordGenerator.promptUsername()
     passwordGenerator.generatePassword()
     
