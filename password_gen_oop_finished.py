@@ -1,7 +1,7 @@
 import random
 import string
 
-# OOP version of password generator made by Roberto Da Silva on 06/05/2022 - Note: You can replace the ascii random generation with arrays which would in theory make the time complexity O(n) rather than O(n^2) but it is fine for time being.
+# OOP version of password generator made on 06/05/2022 - Note: You can replace the ascii random generation with arrays which would in theory make the time complexity O(n) rather than O(n^2) but it is fine for time being.
 
 class password_gen():
     def __init__(self, database):
